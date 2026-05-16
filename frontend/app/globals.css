@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(1200px 600px at 10% -20%, #123b36 0%, transparent 60%),
+    radial-gradient(1200px 600px at 100% 0%, #182b57 0%, transparent 55%),
+    #050915;
+  color: #d4f8e8;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.bg-grid {
+  background-image: linear-gradient(rgba(100, 255, 180, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(100, 255, 180, 0.05) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+.card {
+  background: rgba(19, 31, 55, 0.55);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(88, 255, 177, 0.22);
+}
+
+.map-surface {
+  background: linear-gradient(120deg, rgba(49, 120, 90, 0.3), rgba(26, 53, 106, 0.4));
+  border: 1px dashed rgba(140, 255, 196, 0.35);
+}
